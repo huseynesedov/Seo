@@ -25311,13 +25311,13 @@ p:empty {
 
 @media only screen and (max-width:767px) {
     body .site_wrapper {
-        opacity: 0;
+        /* opacity: 0; */
         transition: opacity .2s
     }
 
-    body.page-loaded .site_wrapper {
+    /* body.page-loaded .site_wrapper {
         opacity: 1
-    }
+    } */
 }
 
 div.slick-slider ul.slick-dots li.slick-active {
